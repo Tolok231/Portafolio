@@ -1,0 +1,483 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tobias Graziano | Portafolio  </title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="mediaqueries.css" />
+  </head>
+  <body>
+    <nav id="desktop-nav">
+        <ul class="nav-links">
+          <li><a href="#about">Sobre mi</a></li>
+          <li><a href="#experience">Experiencia</a></li>
+          <li><a href="#projects">Projectos</a></li>
+          <li><a href="#contact">Contacto</a></li>
+        </ul>
+      </div>
+    </nav>
+    <nav id="hamburger-nav">
+      <div class="logo">Tobias Graziano</div>
+      <div class="hamburger-menu">
+        <div class="hamburger-icon" onclick="toggleMenu()">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+        <div class="menu-links">
+          <li><a href="#about" onclick="toggleMenu()">Sobre mi</a></li>
+          <li><a href="#experience" onclick="toggleMenu()">Experiencia</a></li>
+          <li><a href="#projects" onclick="toggleMenu()">Projectos</a></li>
+          <li><a href="#contact" onclick="toggleMenu()">Contacto</a></li>
+        </div>
+      </div>
+    </nav>
+    <section id="profile">
+      <div class="section__pic-container">
+        <img src="./assets/profile-pic.png" alt="John Doe profile picture" />
+      </div>
+      <div class="section__text">
+        <p class="section__text__p1">Buenas, me llamo</p>
+        <h1 class="title">Tobias Graziano</h1>
+        <p class="section__text__p2">FullStack Developer and Graphic Design </p>
+        
+        <div class="btn-container">
+          <button
+            class="btn btn-color-2"
+            onclick="window.open('./assets/TobiasGrazianoCV.pdf')"
+          >
+            Descargar CV
+          </button>
+          <button class="btn btn-color-1" onclick="location.href='#contact'">
+            Contactame
+          </button>
+        </div>
+        <div id="socials-container">
+          <img
+            src="./assets/linkedin.png"
+            alt="My LinkedIn profile"
+            class="icon"
+            onclick="location.href='https://www.linkedin.com/in/tobias-graziano/'"
+          />
+          <img
+            src="./assets/github.png"
+            alt="My Github profile"
+            class="icon"
+            onclick="location.href='https://github.com/Tolok231'"
+          />
+        </div>
+      </div>
+    </section>
+    <section id="about">
+      <p class="section__text__p1">Mas informacion</p>
+      <h1 class="title">Sobre mi</h1>
+      <div class="section-container">
+        <div class="section__pic-container">
+          <img
+            src="./assets/foto2.jpg"
+            alt="Profile picture"
+            class="about-pic"
+          />
+        </div>
+        <div class="about-details-container">
+          <div class="about-containers">
+            <div class="details-container">
+              <img
+                src="./assets/experience.png"
+                alt="Experience icon"
+                class="icon"
+              />
+              <h3>Experciencia</h3>
+              <p>2+ años <br/>FullStack Development</p>
+            </div>
+            <div class="details-container">
+              <img
+                src="./assets/education.png"
+                alt="Education icon"
+                class="icon"
+              />
+              <h3>Educacion</h3>
+              <p >Terciario Urquiza</p>
+            </div>
+          </div>
+          <div class="text-container">
+            <p>
+              ¡Hola! Soy un apasionado desarrollador Full Stack Junior con una firme convicción de que la tecnología puede cambiar el mundo para mejor. Mi viaje en el mundo del desarrollo comenzó con una curiosidad insaciable y un amor por resolver problemas.Estoy emocionado de seguir aprendiendo y creciendo en esta apasionante industria. Mi enfoque es siempre aprender algo nuevo cada día y aplicar ese conocimiento para crear soluciones innovadoras y eficientes. ¡Estoy listo para sumergirme en nuevos desafíos y contribuir al éxito de equipos y proyectos emocionantes!
+            </p>
+          </div>
+        </div>
+      </div>
+      <img
+        src="./assets/arrow.png"
+        alt="Arrow icon"
+        class="icon arrow"
+        onclick="location.href='#experience'"
+      />
+    </section>
+    <section id="experience">
+      <p class="section__text__p1">Explora mis</p>
+      <h1 class="title">Habilidades</h1>
+      <div class="experience-details-container">
+        <div class="about-containers">
+          <div class="details-container">
+            <h2 class="experience-sub-title">Frontend Skills</h2>
+            <div class="article-container">
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>HTML</h3>
+                  <p class="intermedio">Intermedio</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>React</h3>
+                  <p class="intermedio">Intermedio</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>CSS</h3>
+                  <p class="intermedio">Intermedio</p>
+                </div>
+              </article>
+              
+              
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>JavaScript</h3>
+                  <p class="basico">Basico</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>WordPress</h3>
+                  <p class="intermedio">Intermedio</p>
+                </div>
+              </article>
+              
+             
+             
+
+            </div>
+          </div>
+          <div class="details-container">
+            <h2 class="experience-sub-title">Design Skills</h2>
+            <div class="article-container">
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Canva</h3>
+                  <p class="intermedio">Intermedio</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Photoshop</h3>
+                  <p class="intermedio">Intermedio</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Illustrator</h3>
+                  <p class="intermedio">Intermedio</p>
+                </div>
+              </article>
+              
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>CapCut</h3>
+                  <p class="basico">Basico</p>
+                </div>
+              </article>
+              
+            
+            </div>
+          </div>
+          <div class="details-container">
+            <h2 class="experience-sub-title">Backend Skills</h2>
+            <div class="article-container">
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>MYSQL</h3>
+                  <p class="intermedio">Intermedio</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Node JS</h3>
+                  <p class="basico">Basico</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>PHP</h3>
+                  <p class="intermedio">Intermedio</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Git</h3>
+                  <p class="intermedio">Intermedio</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Python</h3>
+                  <p class="basico">Basico</p>
+                </div>
+              </article>
+            </div>
+          </div>
+        </div>
+      </div>
+      <img
+        src="./assets/arrow.png"
+        alt="Arrow icon"
+        class="icon arrow"
+        onclick="location.href='./#projects'"
+      />
+    </section>
+
+      
+    <section id="projects">
+      <p class="section__text__p1">Explora mi repositorio</p>
+      <h1 class="title">Proyectos</h1>
+      <div class="experience-details-container">
+        <div class="about-containers">
+          
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img
+                src="./assets/pokedeximagen.webp"
+                alt="Project 1"
+                class="project-img"
+              />
+            </div>
+            <h2 class="experience-sub-title project-title">Buscador de pokemons utilizando la API pokedex</h2>
+            <div class="btn-container">
+              <a class="btn btn-color-2 project-btn" target="_blank" href="https://github.com/Tolok231/Pokedex-js">Github</a>
+              <a class="btn btn-color-2 project-btn" target="_blank" href="https://pokedex1ergen.netlify.app/">live Demo</a>
+            </div>
+          </div>
+          
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img
+                src="./assets/clima.webp"
+                alt="Project 2"
+                class="project-img"
+              />
+            </div>
+            <h2 class="experience-sub-title project-title">Proyecto Landing climatologico</h2>
+            <div class="btn-container">
+              <a class="btn btn-color-2 project-btn" target="_blank" href="https://github.com/Tolok231/Clima">Github</a>
+              <a class="btn btn-color-2 project-btn" target="_blank" href="https://climaciudades.netlify.app/">live Demo</a>
+            </div>
+          </div>
+          
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img
+                src="./assets/arteyfusion.webp"
+                alt="Project 2"
+                class="project-img"
+              />
+            </div>
+            <h2 class="experience-sub-title project-title">Proyecto Landing Gimnasio</h2>
+            <div class="btn-container">
+
+              <a class="btn btn-color-2 project-btn" target="_blank" href="https://github.com/Tolok231/GymTech">Github</a>
+              <a class="btn btn-color-2 project-btn" target="_blank" href="https://arteyfusion.netlify.app/">live Demo</a>
+
+            </div>
+          </div>
+          <div class="details-container color-container" >
+            <div class="article-container">
+              <img
+                src="./assets/Cilantro.webp"
+                alt="Project 2"
+                class="project-img"
+              />
+            </div>
+            <h2 class="experience-sub-title project-title" >Proyecto E-commerce</h2>
+            <div class="btn-container ">
+             
+            
+             <a class="btn btn-color-2 project-btn" target="_blank" href="https://cilantro-alimentos-saludables.com">live Demo</a>
+
+            </div>
+          </div><div class="details-container color-container">
+            <div class="article-container">
+              <img
+                src="./assets/EncriptadorCesar.webp"
+                alt="Project 2"
+                class="project-img"
+              />
+            </div>
+            <h2 class="experience-sub-title project-title">Proyecto Encriptador Cesar</h2>
+            <div class="btn-container">
+              <a class="btn btn-color-2 project-btn" target="_blank" href="https://github.com/Tolok231/Encriptador-cesar">Github</a>
+              <a class="btn btn-color-2 project-btn" target="_blank" href="https://encriptadorcesar.netlify.app/">live Demo</a>
+            </div>
+          </div>
+          
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img
+                src="./assets/Bosques.webp"
+                alt="Project 2"
+                class="project-img"
+              />
+            </div>
+            <h2 class="experience-sub-title project-title">Landing Bosques</h2>
+            <div class="btn-container">
+              <a class="btn btn-color-2 project-btn" target="_blank" href="https://github.com/Tolok231/Bosques">Github</a>
+              <a class="btn btn-color-2 project-btn" target="_blank" href="https://landingbosque.netlify.app/">live Demo</a>
+            </div>
+          </div>
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img
+                src="./assets/Psicologia.webp"
+                alt="Project 2"
+                class="project-img"
+              />
+            </div>
+            <h2 class="experience-sub-title project-title">Proyecto Pagina Psicologia</h2>
+            <div class="btn-container">
+              <a class="btn btn-color-2 project-btn" target="_blank" href="https://github.com/Tolok231/Psicologia">Github</a>
+              <a class="btn btn-color-2 project-btn" target="_blank" href="https://psicologamariagabriela.netlify.app/">live Demo</a>
+            </div>
+          </div>
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img
+                src="./assets/CrudPHP.webp"
+                alt="Project 2"
+                class="project-img"
+              />
+            </div>
+            <h2 class="experience-sub-title project-title">Proyecto CRUD en PHP</h2>
+            <div class="btn-container">
+              <a class="btn btn-color-2 project-btn" target="_blank" href="https://github.com/Tolok231/CRUD_PHP">Github</a>
+              
+              
+            </div>
+          </div>
+          
+        </div>
+      </div>
+      <img
+        src="./assets/arrow.png"
+        alt="Arrow icon"
+        class="icon arrow"
+        onclick="location.href='./#contact'"
+      />
+    </section>
+    <section id="contact">
+      <p class="section__text__p1">Ponte en contacto</p>
+      <h1 class="title">Contactame mediante</h1>
+      <div class="contact-info-upper-container">
+        <div class="contact-info-container">
+          <img
+            src="./assets/email.png"
+            alt="Email icon"
+            class="icon contact-icon email-icon"
+          />
+          <a href="mailto:tobias.graziano2020@gmail.com">tobias.graziano2020@gmail.com</a></div>
+        <div class="contact-info-container">
+          <img
+            src="./assets/linkedin.png"
+            alt="LinkedIn icon"
+            class="icon contact-icon"
+          />
+          <p><a target="_blank" href="https://www.linkedin.com/in/tobias-graziano/">LinkedIn</a></p>
+        </div>
+      </div>
+    </section>
+    <footer>
+      <nav>
+        <div class="nav-links-container">
+          <ul class="nav-links">
+            <li><a href="#about">Sobre mi</a></li>
+            <li><a href="#experience">Experiencia</a></li>
+            <li><a href="#projects">Proyectos</a></li>
+            <li><a href="#contact">Contacto</a></li>
+          </ul>
+        </div>
+      </nav>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>
